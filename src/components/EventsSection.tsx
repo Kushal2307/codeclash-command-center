@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Copy, Layout, Clock, BarChart3 } from "lucide-react";
+import { Brain, Zap, Clock, BarChart3 } from "lucide-react";
 
 const events = [
   {
-    icon: Copy,
-    title: "CLONE THIS WORK",
-    description: "Pixel-perfect replication challenge. Prove you can match any UI with surgical precision.",
+    icon: Brain,
+    title: "Clone Wars 🧠",
+    description: "Pixel-perfect replication challenge. Replicate a given UI with surgical precision under pressure.",
     details: [
       { icon: Clock, label: "Duration", value: "3 Hours" },
       { icon: BarChart3, label: "Skill Level", value: "Intermediate" },
@@ -13,12 +13,12 @@ const events = [
     borderClass: "neon-border-blue",
   },
   {
-    icon: Layout,
-    title: "PRODUCT LANDING PAGE",
-    description: "Design and ship a conversion-optimized landing page from scratch. Creativity meets performance.",
+    icon: Zap,
+    title: "MCQ Blitz ⚡",
+    description: "Rapid-fire multiple choice questions testing your deep knowledge of code, algorithms & frameworks.",
     details: [
-      { icon: Clock, label: "Duration", value: "5 Hours" },
-      { icon: BarChart3, label: "Skill Level", value: "Advanced" },
+      { icon: Clock, label: "Duration", value: "1 Hour" },
+      { icon: BarChart3, label: "Skill Level", value: "All Levels" },
     ],
     borderClass: "neon-border-purple",
   },
