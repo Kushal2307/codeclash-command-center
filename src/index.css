@@ -101,6 +101,20 @@
   .glow-pulse {
     animation: glowPulse 2.5s ease-in-out infinite;
   }
+
+  .neon-flash {
+    animation: neonFlash 2s ease-in-out infinite;
+  }
+
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marqueeScroll 20s linear infinite;
+  }
+
+  .marquee-content {
+    flex-shrink: 0;
+  }
 }
 
 @keyframes glowPulse {
@@ -110,4 +124,18 @@
   50% {
     box-shadow: 0 0 25px hsl(var(--neon-blue) / 0.7), 0 0 60px hsl(var(--neon-blue) / 0.3);
   }
+}
+
+@keyframes neonFlash {
+  0%, 100% {
+    text-shadow: 0 0 10px hsl(var(--neon-blue) / 0.5), 0 0 30px hsl(var(--neon-blue) / 0.3), 0 0 60px hsl(var(--neon-blue) / 0.1);
+  }
+  50% {
+    text-shadow: 0 0 20px hsl(var(--neon-blue) / 0.9), 0 0 50px hsl(var(--neon-blue) / 0.6), 0 0 100px hsl(var(--neon-blue) / 0.3);
+  }
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }

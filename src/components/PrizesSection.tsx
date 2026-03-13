@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Trophy, Award, Medal } from "lucide-react";
 
 const prizes = [
-  { icon: Trophy, amount: "$5,000", label: "1st Place", borderClass: "neon-border-blue" },
-  { icon: Award, amount: "$3,000", label: "2nd Place", borderClass: "neon-border-purple" },
-  { icon: Medal, amount: "$1,000", label: "3rd Place", borderClass: "neon-border-green" },
+  { icon: Trophy, amount: "₹50,000", label: "1st Place", borderClass: "neon-border-blue" },
+  { icon: Award, amount: "₹30,000", label: "2nd Place", borderClass: "neon-border-purple" },
+  { icon: Medal, amount: "₹10,000", label: "3rd Place", borderClass: "neon-border-green" },
 ];
 
 const PrizesSection = () => (
